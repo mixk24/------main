@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VANS-TEST</title>
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="페이지 제목" />
+    <meta property="og:description" content="페이지 설명" />
+    <meta property="og:image" content="http://www.mysite.com/article/article1_featured_image.jpg" />
+    <meta property="og:url" content="http://www.mysite.com/article/article1.html" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="페이지 제목" />
+    <meta name="twitter:description" content="페이지 설명" />
+    <meta name="twitter:image" content="http://www.mysite.com/article/article1.html" />
+    <meta name="twitter:domain" content="사이트 명" />
+    <!-- css -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+
+    <!-- js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script defer src="./assets/js/comm.js"></script>
+    <script defer src="./assets/js/script.js"></script>
+</head>
+<body>
+    <div id="u-skip">
+        <a href="#gnb">전체메뉴 바로가기</a>
+        <a href="#main">본문 바로가기</a>
+    </div>
+    <div id="wrap">
+        <header id="header" class="">
+            <div class="container">
+                <h1 id="logo">
+                    <a href="/">
+                        <img src="image-vans/example2.jpg" width="150" height="80">
+                    </a>
+                </h1>
+                <nav id="gnb">
+                    <input type="checkbox" name="btnMenu" id="btnMenu" class="blind" />
+                    <label for="btnMenu" class="label-menu">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="blind">전체메뉴 보기</span>
+                    </label>
+                    <div class="menu-wrap">
+                        <div class="m-util">
+                            <a href="#" class="active">KOR</a>
+                            <a href="#">ENG</a>
+                        </div>
+                        <div class="top-menu">
+                            <dl class="">
+                                <dt>
+                                    <a href="#">NEW & FEATURED</a>
+                                </dt>
+                                <dd>
+                                    <a href="#">신발 신상품</a>
+                                    <a href="#">의류 신상품</a>
+                                    <a href="#">액세서리 신상품</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <a href="#">MEN</a>
+                                </dt>
+                                <dd>
+                                    <a href="#">신발</a>
+                                    <a href="#">의류</a>
+                                    <a href="#">액세서리</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <a href="#">WOMEN</a>
+                                </dt>
+                                <dd>
+                                    <a href="#">신발</a>
+                                    <a href="#">의류</a>
+                                    <a href="#">액세서리</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <a href="#">KIDS</a>
+                                </dt>
+                                <dd>
+                                    <a href="#">신발</a>
+                                    <a href="#">의류</a>
+                                    <a href="#">액세서리</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <a href="#">SALE</a>
+                                </dt>
+                                <dd>
+                                    <a href="#">MEN</a>
+                                    <a href="#">WOMEN</a>
+                                    <a href="#">KIDS</a>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                </nav>
+                <div class="util">
+                    <!--<div class="lang">
+                        <a href="#" class="active">KOR</a>
+                        <a href="#">ENG</a>
+                    </div>-->
+                    <div class="search-area">
+                        <button class="btn-search">
+                            <i class="las la-search"></i>
+                            <span class="blind">검색창 열기</span>
+                        </button>
+                        <div class="layer-search dimmed">
+                            <div class="search-box">
+                                <form class="form-search">
+                                    <input type="search" name="search" id="search" class="inp-search" title="검색어를 입력하세요" placeholder="검색어를 입력하세요" />
+                                    <button type="submit" class="btn-submit">
+                                        <i class="las la-search"></i>
+                                        <span class="blind">검색</span>
+                                    </button>
+                                </form>
+                                <button class="btn-close">
+                                    <i class="las la-times"></i>
+                                    <span class="blind">검색창 닫기</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main id="main">
+            <!-- 메인 섹션 0 -->
+            <div class="scroll-section">
+                <img src="image-vans/kids.jpg" class="top-image">
+                <img src="image-vans/kids뒤.jpg" class="bottom-image">
+                <h1>DISENY X VANS</h1>
+            </div>
+
+            <!-- 메인 섹션 1 -->
+            <div class="slideshow-container" id="section1">
+                <h1>BAG</h1>
+            <p>체커보드 리유저블 백</p>
+                <div class="mySlides">
+                    <img src="image-vans/44.jpg" style="width:50%">
+                </div>
+                <div class="mySlides">
+                    <img src="image-vans/44side.jpg" style="width:50%">
+                </div>
+                <div class="mySlides">
+                    <img src="image-vans/44옆.jpg" style="width:50%">
+                </div>
+                
+            </div>
+
+            <!-- 메인 섹션 2 -->
+            <div class="slideshow-container" id="section2">
+                  <h1>HAT</h1>
+                    <p>Vans x The Museum Visitor 플로럴 트러커 햇</p>
+                <div class="mySlides">
+                    <img src="image-vans/vvvv.jpg" style="width:30%">
+                </div>
+                <div class="mySlides">
+                    <img src="image-vans/모자옆.jpg" style="width:30%">
+                </div>
+                <div class="mySlides">
+                    <img src="image-vans/모자뒤.jpg" style="width:30%">
+                </div>
+            </div>
+
+            <!-- 메인 섹션 3 -->
+            <div class="slideshow-container" id="section3">
+                <h1>BOTTOM</h1>
+                <h2>The Daily check board shots</h2>
+                <p>벤톤 체커 이지 팬츠</p>
+                <div class="mySlides">
+                    <img src="image-vans/bottom.jpg" style="width:30%">
+                </div>
+                <div class="mySlides">
+                    <img src="image-vans/bottom 뒤.jpg" style="width:30%">
+                </div>
+            </div>
+
+            <!-- 메인 섹션 4 -->
+            <div class="slideshow-container" id="section4">
+                <h1>SHOES</h1>
+                <h2>Vans x The Museum Visitor Sport Low 스포츠 로우</h2>
+                <p>스타일 : VN000D09WHP1</p>
+                <div class="mySlides">
+                    <img src="image-vans/sho.jpg" style="width:80%">
+                </div>
+                <div class="mySlides">
+                    <img src="image-vans/sho1.jpg" style="width:80%">
+                </div>
+                <div class="mySlides">
+                    <img src="image-vans/sho2.jpg" style="width:80%">
+                </div>
+                <div class="mySlides">
+                    <img src="image-vans/sho3.jpg" style="width:80%">
+                </div>
+                <div class="mySlides">
+                    <img src="image-vans/sho4.jpg" style="width:80%">
+                </div>
+                <div class="mySlides">
+                    <img src="image-vans/sho5.jpg" style="width:80%">
+                </div>
+            </div>
+
+            <!-- 메인 섹션 5 -->
+            <div class="video-like-section">
+                <div class="image-container">
+                    <img src="image-vans/양말이다.jpg" class="moving-image" width="1440">
+                    <img src="image-vans/양말1.jpg" class="moving-image">
+                </div>
+            </div>
+        </main>
+
+        <footer id="footer">
+            <div class="footer_cont clearfix pc-foot container">
+                <div class="footer_left">
+                    <img src="image-vans/example2.jpg" alt="vans" />
+                    <div class="copyright_txt">
+                        <p>사업자등록번호 : 129-86-31394&nbsp;&nbsp;&nbsp;&nbsp;통신판매업신고번호 : 제2009-경기성남-0510호</p>
+                        <p>대표이사 : 김유원&nbsp;&nbsp;&nbsp;&nbsp;주소 : 경기도 성남시 분당구 분당내곡로 131 판교테크원 타워1 13~15층, 13529</p>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
